@@ -2,8 +2,6 @@
 .terraform/
 *.tfstate
 *.tfstate.*
+crash.log
+terraform.tfvars
 *.tfvars
-*.tfplan
-crash.log.terraform/
-*.tfstate
-*.tfstate.*
