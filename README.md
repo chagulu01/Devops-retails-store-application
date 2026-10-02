@@ -2,6 +2,8 @@
 
 aws eks update-kubeconfig --region us-east-1 --name retail-dev-dev-eks-cluster
 
+kubectl run dns-test --image=busybox:1.28 -it --rm
+
 kubectl port-forward deploy/catalog 7080:8080
 
 # Topology Endpoint
