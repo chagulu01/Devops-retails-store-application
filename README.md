@@ -54,3 +54,7 @@ Check the version after rollback:
 kubectl describe deployment catalog | grep Image
 Step-07: Cleanup
 kubectl delete deployment catalog
+
+
+# Pod Indentity agent
+kubectl exec -it aws-cli -- aws s3 ls
